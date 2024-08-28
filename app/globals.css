@@ -34,12 +34,11 @@ body {
 }
 
 .menuBar {
-  background-color: var(--themeSecondary);
   width: 20%;
   transition: left 0.2s ease-out;
 }
 
 .menuButton {
-  background-color: var(--themeSecondary);
-  fill: rgb(var(--foreground-rgb))
+  fill: rgb(var(--foreground-rgb));
+  transition: 0.2s;
 }
